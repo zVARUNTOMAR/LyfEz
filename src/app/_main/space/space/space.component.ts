@@ -1,6 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Subscription } from 'rxjs/internal/Subscription';
-import { SpaceCraft } from 'src/app/_models/spacecrafts';
+import { SpaceCraft } from 'src/app/_models/Spacecrafts';
 import { CommonService } from 'src/app/_services/common.service';
 
 @Component({
