@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { SpaceCraft } from '../_models/spacecrafts';
+import { SpaceCraft } from '../_models/Spacecrafts';
 
 @Injectable({
   providedIn: 'root',
