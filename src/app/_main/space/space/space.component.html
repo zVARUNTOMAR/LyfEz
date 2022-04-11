@@ -1,8 +1,14 @@
-<table>
-  <th>S.No</th>
-  <th>Name</th>
-  <tr *ngFor="let s of spacecrafts">
-    <td>{{ s.id }}</td>
-    <td>{{ s.name }}</td>
-  </tr>
-</table>
+<div class="table-container">
+  <div class="search-container">
+    <input type="text" [(ngModel)]="search" placeholder="Search...." />
+    <button class="btn-search" (click)="searchSpacecraft()">Search</button>
+  </div>
+  <table>
+    <th>S.No</th>
+    <th>Name</th>
+    <tr *ngFor="let s of spacecrafts">
+      <td>{{ s.id }}</td>
+      <td>{{ s.name }}</td>
+    </tr>
+  </table>
+</div>
